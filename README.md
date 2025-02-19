@@ -2,6 +2,27 @@
 
 **Echo** is an AI-powered voice assistant that recognizes voice commands, responds with text-to-speech, and performs system automation tasks.  
 
+## 🛠️ Technologies Used
+
+### 🎙️ Voice Interaction
+- **Speech Recognition (`speech_recognition`)** - Converts voice commands into text.
+- **Text-to-Speech (`pyttsx3`)** - Converts text responses into speech.
+
+### 🌐 Web & Search
+- **Wikipedia API (`wikipedia`)** - Fetches summaries for user queries.
+- **Web Automation (`webbrowser`)** - Opens and navigates web pages.
+- **YouTube & Music (`pywhatkit`)** - Searches and plays music on YouTube, Spotify, or Apple Music.
+
+### 🎵 Media & System Control
+- **System Control (`os`, `pyautogui`)** - Opens applications, controls volume, manages system shutdown/restart, and automates keyboard/mouse tasks.
+- **Screen Capture (`pyautogui`)** - Takes and saves screenshots based on voice input.
+
+### 🖥️ GUI Interface
+- **Custom GUI (`customtkinter`)** - Provides an interactive graphical interface.
+
+### 🖱️ Miscellaneous
+- **IP Lookup (`requests`)** - Retrieves the user's public IP address.
+
 ## 🚀 Features  
 
 ### 🎙️ Voice Interaction  
